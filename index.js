@@ -7,6 +7,10 @@ const context = new Context({
 
 const client = new Client(context);
 
-const daos = await client.methods.getDaos({ skip: 0, limit: 10 });
-
-console.log("DAOs:", daos);
+try {
+  const daos = await client.methods.getDaos({ skip: 0, limit: 10 });
+  console.log("DAOs:", daos);
+} catch (err) {
+  console.error("Error fetching DAOs:", err.message);
+  console.error("The Aragon subgraph endpoint may be unavailable or deprecated.");
+}
