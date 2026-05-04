@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "setup": "npm install"
+    "setup": "npm install",
+    "dev": "node index.js"
   },
   "dependencies": {
     "@aragon/sdk-client": "^1.23.0"
