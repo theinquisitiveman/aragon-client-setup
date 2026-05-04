@@ -14,7 +14,8 @@ npm run setup
 
 ## Notes
 
-Some vulnerabilities exist in transitive dependencies (`elliptic` via `ethers`) with no upstream fix currently available.
+- Some vulnerabilities exist in transitive dependencies (`elliptic` via `ethers`) with no upstream fix currently available.
+- Aragon's default subgraph endpoint (`satsuma-prod.com`) appears to be unavailable or deprecated. Queries to the GraphQL API (e.g. `getDaos`) will fail with `NoNodesAvailableError` until an alternative endpoint is available.
 
 ## License
 
