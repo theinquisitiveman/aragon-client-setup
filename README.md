@@ -15,3 +15,7 @@ npm run setup
 ## Notes
 
 Some vulnerabilities exist in transitive dependencies (`elliptic` via `ethers`) with no upstream fix currently available.
+
+## License
+
+[MIT](./LICENSE)
