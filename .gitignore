@@ -1,0 +1,52 @@
+# Sensitive files
+.zsh_history
+.zsh_sessions/
+.bash_history
+.clasprc.json
+.gitconfig
+.CFUserTextEncoding
+.lesshst
+
+# OS
+.DS_Store
+.Trash/
+
+# Personal directories
+Desktop/
+Documents/
+Downloads/
+Movies/
+Music/
+Pictures/
+Public/
+Applications/
+Library/
+Zotero/
+
+# Node
+node_modules/
+.npm/
+yarn.lock
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+iframe_figures/
+
+# Config/tools
+.cache/
+.config/
+.cups/
+.cursor/
+.docker/
+.vscode/
+.matplotlib/
+.idlerc/
+.yarnrc
+.zprofile
